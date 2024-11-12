@@ -36,3 +36,17 @@ This code is predicting if cryptocurrencies are affected by 24 hours or 7-day ch
 ### Analysis
 
 1. The composite plot below compares the two elbow tests performed for the normalized scaled data and the PCA scaled data.
+
+![Screenshot of composite plot comparing the two Elbow Tests.](https://github.com/Zenalawrence/CryptoClustering/blob/main/README_images/Image1_composit_elbow.png?raw=true)
+
+This plot shows optimal K-Means value of 4.  PCA had a lower inertia indicting tighter clusters was predicted.
+
+2.  The total explained variance was found to be 89.5% for 3 principal components features.
+
+3.  The composite plot below shows the two plots for normalized scaled dataset and PCA scaled dataset.
+
+![Screenshot of composite plot comparing the two Elbow Tests.](https://github.com/Zenalawrence/CryptoClustering/blob/main/README_images/image2_composite_scatter1.png?raw=true)
+
+    - The Original scaled data plot shows clustering overlap each other as shown by the green and blue colours (cluster 0 and 3).
+    - Using fewer feaures allowed tighter and more distanced clustering for the PCA scaled data.  "Celsius-degree-token" shown in green colour(cluster 0), is nested amongst the blue colour(cluster 0) in the original scaled data compared to the PCA scaled data.  The four clusters is better visualized in the PCA analysis as a result of the few features.
+
